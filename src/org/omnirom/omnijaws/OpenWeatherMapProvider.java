@@ -308,7 +308,7 @@ public class OpenWeatherMapProvider extends AbstractWeatherProvider {
                 return 28;
             case 803:     // broken clouds  
             case 804:     // overcast clouds 
-                return 27;
+                return 30;
 
             // Extreme
             case 900: return 0;  // tornado
